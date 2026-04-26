@@ -1,15 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Deriv P2P Hub</title>
+    <meta charset="UTF-8">
+    <title>Deriv Instant Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px;
+            background: #1e293b;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        p {
+            color: #cbd5e1;
+        }
+
+        .container {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 18px;
+            background: #22c55e;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #16a34a;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            color: #94a3b8;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to Deriv P2P Hub</h1>
-    <p>Buy and sell on Deriv P2P to fund your trading account.</p>
 
-    <a href="https://p2p.deriv.com/orders" target="_blank">
-        Go to Deriv P2P Orders
-    </a>
+<header>
+    <h1>🚀 Deriv Instant Pay Hub</h1>
+    <p>Fast access to trading tools & P2P services</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Deriv P2P</h3>
+        <p>Buy & sell funds instantly</p>
+        <a class="btn" href="https://p2p.deriv.com/orders" target="_blank">Open P2P</a>
+    </div>
+
+    <div class="card">
+        <h3>Trading Platform</h3>
+        <p>Access Deriv trading tools</p>
+        <a class="btn" href="https://app.deriv.com" target="_blank">Trade Now</a>
+    </div>
+
+    <div class="card">
+        <h3>Telegram Support</h3>
+        <p>Get help & updates</p>
+        <a class="btn" href="https://t.me/" target="_blank">Join Telegram</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Deriv Hub | Built by Jeremiah
+</footer>
+
 </body>
 </html>
